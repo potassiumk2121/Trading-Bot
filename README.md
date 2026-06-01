@@ -44,7 +44,7 @@ trading_bot/
 
 ### 2. Clone and install
 ```bash
-git clone <your-fork-url> trading_bot
+git clone https://github.com/potassiumk2121/Trading-Bot.git
 cd trading_bot
 
 python3 -m venv .venv
