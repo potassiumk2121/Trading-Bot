@@ -17,15 +17,15 @@ It demonstrates:
 trading_bot/
 ├── bot/
 │   ├── __init__.py
-│   ├── client.py            # Binance client wrapper (testnet-aware)
-│   ├── orders.py            # Order placement & response formatting
-│   ├── validators.py        # Input validation
-│   ├── logging_config.py    # File + console logger setup
-│   └── cli.py               # CLI entry point (argparse + interactive mode)
+│   ├── client.py            
+│   ├── orders.py            
+│   ├── validators.py        
+│   ├── logging_config.py    
+│   └── cli.py               
 ├── logs/
-│   ├── trading_bot.log              # All runtime logs
-│   ├── sample_market_order.log      # Example MARKET order log
-│   └── sample_limit_order.log       # Example LIMIT order log
+│   ├── trading_bot.log             
+│   ├── sample_market_order.log      
+│   └── sample_limit_order.log       
 ├── requirements.txt
 ├── .env.example
 ├── .gitignore
