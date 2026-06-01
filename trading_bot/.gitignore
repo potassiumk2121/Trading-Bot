@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Environment / credentials
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Logs (keep the directory but not the files in production runs)
+# The two sample logs below are intentionally committed for the assignment.
+logs/*.log.*

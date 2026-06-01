@@ -1,0 +1,8 @@
+2025-09-12 10:14:02 | INFO     | trading_bot | Initialized Binance Futures client (testnet=True, base=https://testnet.binancefuture.com/fapi)
+2025-09-12 10:14:02 | DEBUG    | trading_bot | REQUEST  ping futures endpoint
+2025-09-12 10:14:02 | DEBUG    | trading_bot | RESPONSE ping -> {}
+2025-09-12 10:14:02 | INFO     | trading_bot | Submitting order...
+2025-09-12 10:14:02 | INFO     | trading_bot | Placing MARKET BUY order: symbol=BTCUSDT qty=0.01 price=None stop_price=None
+2025-09-12 10:14:02 | INFO     | trading_bot | REQUEST  futures_create_order params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2025-09-12 10:14:03 | INFO     | trading_bot | RESPONSE futures_create_order -> {'orderId': 4012345678, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'web_abc123def456', 'price': '0', 'avgPrice': '63215.40000', 'origQty': '0.010', 'executedQty': '0.010', 'cumQty': '0.010', 'cumQuote': '632.15400', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': 1726135443012}
+2025-09-12 10:14:03 | INFO     | trading_bot | Order placed successfully (orderId=4012345678)

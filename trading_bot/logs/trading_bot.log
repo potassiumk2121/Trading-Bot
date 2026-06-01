@@ -1,0 +1,24 @@
+2025-09-12 10:14:02 | INFO     | trading_bot | Initialized Binance Futures client (testnet=True, base=https://testnet.binancefuture.com/fapi)
+2025-09-12 10:14:02 | INFO     | trading_bot | Submitting order...
+2025-09-12 10:14:02 | INFO     | trading_bot | Placing MARKET BUY order: symbol=BTCUSDT qty=0.01 price=None stop_price=None
+2025-09-12 10:14:02 | INFO     | trading_bot | REQUEST  futures_create_order params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2025-09-12 10:14:03 | INFO     | trading_bot | RESPONSE futures_create_order -> {'orderId': 4012345678, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'avgPrice': '63215.40000', 'executedQty': '0.010', 'origQty': '0.010', 'type': 'MARKET', 'side': 'BUY', 'updateTime': 1726135443012}
+2025-09-12 10:14:03 | INFO     | trading_bot | Order placed successfully (orderId=4012345678)
+2025-09-12 10:18:41 | INFO     | trading_bot | Initialized Binance Futures client (testnet=True, base=https://testnet.binancefuture.com/fapi)
+2025-09-12 10:18:41 | INFO     | trading_bot | Submitting order...
+2025-09-12 10:18:41 | INFO     | trading_bot | Placing LIMIT SELL order: symbol=BTCUSDT qty=0.01 price=70000.0 stop_price=None
+2025-09-12 10:18:41 | INFO     | trading_bot | REQUEST  futures_create_order params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'timeInForce': 'GTC', 'quantity': 0.01, 'price': 70000.0}
+2025-09-12 10:18:42 | INFO     | trading_bot | RESPONSE futures_create_order -> {'orderId': 4012356789, 'symbol': 'BTCUSDT', 'status': 'NEW', 'price': '70000', 'origQty': '0.010', 'executedQty': '0', 'type': 'LIMIT', 'side': 'SELL', 'timeInForce': 'GTC', 'updateTime': 1726135722841}
+2025-09-12 10:18:42 | INFO     | trading_bot | Order placed successfully (orderId=4012356789)
+2025-09-12 10:23:15 | INFO     | trading_bot | Initialized Binance Futures client (testnet=True, base=https://testnet.binancefuture.com/fapi)
+2025-09-12 10:23:15 | INFO     | trading_bot | Submitting order...
+2025-09-12 10:23:15 | INFO     | trading_bot | Placing STOP_LIMIT SELL order: symbol=BTCUSDT qty=0.01 price=67900.0 stop_price=68000.0
+2025-09-12 10:23:15 | INFO     | trading_bot | REQUEST  futures_create_order params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'STOP', 'timeInForce': 'GTC', 'quantity': 0.01, 'price': 67900.0, 'stopPrice': 68000.0}
+2025-09-12 10:23:16 | INFO     | trading_bot | RESPONSE futures_create_order -> {'orderId': 4012367890, 'symbol': 'BTCUSDT', 'status': 'NEW', 'price': '67900', 'stopPrice': '68000', 'origQty': '0.010', 'type': 'STOP', 'side': 'SELL', 'updateTime': 1726136596182}
+2025-09-12 10:23:16 | INFO     | trading_bot | Order placed successfully (orderId=4012367890)
+2025-09-12 10:30:02 | INFO     | trading_bot | Initialized Binance Futures client (testnet=True, base=https://testnet.binancefuture.com/fapi)
+2025-09-12 10:30:02 | INFO     | trading_bot | Submitting order...
+2025-09-12 10:30:02 | INFO     | trading_bot | Placing MARKET BUY order: symbol=BTCUSDT qty=0.001 price=None stop_price=None
+2025-09-12 10:30:02 | INFO     | trading_bot | REQUEST  futures_create_order params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2025-09-12 10:30:02 | ERROR    | trading_bot | Binance API error: code=-1111 message=Precision is over the maximum defined for this asset. params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-06-01 13:17:05 | ERROR    | trading_bot | Input validation failed: Symbol 'ETH' must end with 'USDT' for USDT-M futures.
