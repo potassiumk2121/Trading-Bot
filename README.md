@@ -163,7 +163,7 @@ Example excerpt (from `logs/sample_market_order.log`):
 - **USDT-M futures only.** Symbol validation enforces `*USDT`.
 - Quantity / price precision is whatever Binance accepts for that symbol; the bot does not pre-round to Binance's `LOT_SIZE` / `PRICE_FILTER` rules — if those are violated, Binance returns a clear API error which the bot surfaces verbatim.
 - LIMIT and STOP-LIMIT orders default to `timeInForce=GTC`.
-- The account is assumed to already have sufficient USDT margin and the symbol's leverage already configured on the testnet UI.
+- The account is assumed to already have sufficient USDT margin and the symbol's leverage already configured on the testnet UI..
 
 ---
 
